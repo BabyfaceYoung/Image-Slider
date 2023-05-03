@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F716FF;
+}
+
+.img-container{
+    width: 66.5%;
+    min-height: 79vh;
+    background: url("img/AAPL.png") center fixed;
+    border: .5rem solid #ff716f;
+    border-radius: .5rem;
+    position: relative;
+    margin: 5rem auto;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+}
+
+.btn-left{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+    background-color: #ff716f;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    border-radius: .5rem 0 0 .5rem;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+}
+
+.btn-right{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(50%, -50%);
+    background-color: #ff716f;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    border-radius: 0 .5rem .5rem 0;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+}
